@@ -50,31 +50,7 @@ SOLUTION
 
 ![Project 006 Snapshot](movie-app.gif)
 
-## Objective
 
-Build a Movie App using ReactJS.
-
-### At the end of the project, following topics are to be covered;
-
-- HTML
-
-- CSS
-
-- JS
-
-- ReactJS
-
-### At the end of the project, students will be able to;
-
-- improve coding skills within HTML & CSS & JS & ReactJS.
-
-- use git commands (push, pull, commit, add etc.) and Github as Version Control System.
-
-## Steps to Solution
-
-- Before start you can watch these tutorials:
-  - https://www.youtube.com/watch?v=9bXhf_TELP4
-  - https://www.youtube.com/watch?v=vDT7EnUpEoo
 - Step 1 : Create React App using `npx create-react-app movie-app` and install firebase `npm i firebase` / `yarn add firebase`
 
 - Step 2 : Signup `https://firebase.google.com/` and create new app in firebase.
@@ -198,12 +174,6 @@ sendPasswordResetEmail(auth, email)
 
 - Step 4 : Signup `https://www.themoviedb.org/documentation/api` and get API key. In order to get data use `https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}`, to search movies use `https://api.themoviedb.org/3/search/movie?api_key=${API_KEY}&query=`, to get movie details use `https://api.themoviedb.org/3/movie/${id}?api_key=${API_KEY}` and to get video key use `https://api.themoviedb.org/3/movie/${id}/videos?api_key=${API_KEY}`. Use `https://image.tmdb.org/t/p/w1280${poster_path}` for image `src`.
 
-- Step 5: You can use css frameworks like Bootstrap, Semantic UI, Material UI.
 
-- Step 6: Add project gif to your project and README.md file.
 
-## Notes
 
-- You can add additional functionalities to your app.
-
-**<p align="center">&#9786; Happy Coding &#9997;</p>**
